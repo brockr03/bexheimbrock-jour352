@@ -7,12 +7,22 @@ BODY {
     font-weight: 400;
 }
 
+#container {
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+}
+
 /*banner name at top*/
-h1 {
+#name {
     font-size:3em;
     text-transform:uppercase;
     text-align:center;
     color: #3485e3;
+    border-bottom: 1px solid #33485e;
+    width:60%;
+    min-width:300px;
+    margin:0 auto;
 }
 
 /*title format*/
@@ -23,33 +33,92 @@ strong {
 }
 
 /*section title formatt*/
-h2 {
+.sectionheader {
     font-size:1.5em;
     text-transform::uppercase;
     background-color:#33485e;
     color:#fff;
+    margin-top:10px;
+    margin-bottom:20px;
+    margin-right:0;
+    margin-left:0;
+    width:70%;
+    min-width:300px;
 }
 
 /*job titles format*/
-h3{
+.jobtitle{
     font-weight:600;
     font-size:1.5em;
 }
 
 /*job organiation format*/
-h4{
+.organization{
     font-weight:400;
-    font-size:1.5em;
+    font-size:1.25em;
 }
 
 /*job dates*/
-h5{
+.date{
     font-weight:400;
     font-style:italic;
     font-size:1em;
+    margin-top:2px;
+    margin-bottom:0px;
+    margin-right:0px;
+    margin-left:0px;
 }
 
 /* contact info, skills, education format*/
 ul{
     font-size:1em;
+}
+
+.descriotion{
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:0px;
+    margin-left:0px;
+}
+
+.menu{
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-right:0px;
+    margin-left:0px;
+    text-align:center;
+}
+
+.menu li{
+    #display: inline;
+}
+
+.degrees {
+    margin-top:5px;
+    margin-bottom:0px;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+.title{
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.top{
+    width: 60%;
+    min-width: 300px;
+    margin:0 auto;
+    margin-bottom: 30px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200;
+    margin:0 auto;
+    margin-bottom: 50px;
 }
